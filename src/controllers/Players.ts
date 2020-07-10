@@ -1,7 +1,8 @@
 import { Response, Request } from 'express';
 import cheerio from 'cheerio';
 import api from '../services/api';
-interface PlayerData {
+
+interface PlayerData { 
     rank: number;
     name: string;
     nationality: string;
